@@ -1,0 +1,817 @@
+{
+  "accounts": [
+    {
+      "id": "1",
+      "name": "Nguyễn Quốc Khánh",
+      "email": "khanhbk0102@gmail.com",
+      "password": "123456",
+      "token": "jkskskjdksks",
+      "dob": "Nam",
+      "phone": "039849384",
+      "role": "user",
+      "address": "Nhà 13 phố xxx"
+    },
+    {
+      "id": "2",
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "123456",
+      "token": "kssdhjsjs",
+      "role": "admin"
+    },
+    {
+      "id": "3",
+      "name": "staff01",
+      "email": "staff@gmail.com",
+      "password": "staff123",
+      "token": "hsksajdjdjhs",
+      "role": "STAFF"
+    },
+    {
+      "id": "4",
+      "name": "doctor01",
+      "email": "doctor@gmail.com",
+      "password": "123456",
+      "token": "jsksssskkss",
+      "role": "DOCTOR"
+    }
+  ],
+  "service_list": [
+    {
+      "list_id": "1",
+      "title": "Dịch vụ cắt tỉa lông thú",
+      "images": "https://iupets.vn/wp-content/uploads/2020/05/dich_vu_cat_tia_long_cho_meo_tphcm.jpg",
+      "detail": {
+        "description": "Dịch vụ làm đẹp dành cho chó mèo giúp thú cưng luôn sạch sẽ, thơm tho, gọn gàng, mạnh khỏe",
+        "price": "Từ 300.000đ/lần",
+        "thumbline": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF0uMMqGQhOBzm1OI3AiJCKUI29wBmPBO7tw&s",
+          "https://tropicpet.vn/wp-content/uploads/2024/09/cat-tia-long-cho-7.jpg",
+          "https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2020/12/30/866568/Gooming-1.jpg"
+        ]
+      },
+      "id": "d88d"
+    },
+    {
+      "list_id": "2",
+      "title": "Dịch vụ khách sạn lưu trú",
+      "images": "https://dreampet.com.vn/wp-content/uploads/2021/01/khach-san-thu-cung-4.jpg",
+      "detail": {
+        "description": "Khách sạn dành cho thú cưng với điều hòa 24/7, nhân viên chăm sóc chuyên nghiệp, an toàn và tiện nghi.",
+        "price": "150.000đ/đêm",
+        "thumbline": [
+          "https://animalcare.vn/wp-content/uploads/2020/11/khach-san-thu-cung-3.jpg",
+          "https://petcity.vn/media/news/2811_khach-san-thu-cung.jpg",
+          "https://chocanh.vn/wp-content/uploads/2022/06/khach-san-thu-cung-tphcm.jpg"
+        ]
+      },
+      "id": "986c"
+    },
+    {
+      "list_id": "3",
+      "title": "Dịch vụ khám chữa bệnh",
+      "images": "https://iupets.vn/wp-content/uploads/2020/05/dich_vu_cham_soc_cho_meo_tphcm.jpg",
+      "detail": {
+        "description": "Khám tổng quát, tiêm phòng, chẩn đoán nhanh, điều trị các bệnh lý tiêu hóa, da liễu, hô hấp cho thú cưng.",
+        "price": "Từ 200.000đ/lần khám",
+        "thumbline": [
+          "https://www.benhvienthucung.vn/wp-content/uploads/2022/01/khambenhthu.jpg",
+          "https://pethealth.vn/wp-content/uploads/2020/07/khambenh1.jpg",
+          "https://static.vinwonders.com/2023/03/kham-thu-cung-1.jpg"
+        ]
+      },
+      "id": "bad3"
+    },
+    {
+      "list_id": "4",
+      "title": "Dịch vụ tiêm chủng định kỳ",
+      "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0axRo9WVHh_c9mAbMMzE2Xcp5iAbWodjd8w&s",
+      "detail": {
+        "description": "Tiêm vắc xin phòng bệnh cho chó mèo, theo lịch trình định kỳ đảm bảo sức khỏe toàn diện.",
+        "price": "100.000đ - 500.000đ/gói",
+        "thumbline": [
+          "https://nhathuypet.com/wp-content/uploads/2020/07/tiem-phong-cho-cho.jpg",
+          "https://azpet.com.vn/uploads/images/blog/tiem-phong-cho-cho-meo.jpg",
+          "https://thuypetcare.com/wp-content/uploads/2021/05/tiemphong-cho-meo.jpg"
+        ]
+      },
+      "id": "a331"
+    },
+    {
+      "list_id": "5",
+      "title": "Dịch vụ chăm sóc sức khỏe định kỳ",
+      "images": "https://iupets.vn/wp-content/uploads/2020/05/dich_vu_cham_soc_cho_meo_tphcm.jpg",
+      "detail": {
+        "description": "Theo dõi và chăm sóc sức khỏe thú cưng hàng tháng bao gồm cân nặng, lông, răng miệng và da liễu.",
+        "price": "300.000đ/tháng",
+        "thumbline": [
+          "https://petcorner.vn/wp-content/uploads/2021/11/cham-soc-thu-cung.jpg",
+          "https://thucung.vn/wp-content/uploads/2020/08/dich-vu-cham-soc-thu-cung.jpg",
+          "https://petcity.vn/media/news/3108_dich-vu-cham-soc-thu-cung.jpg"
+        ]
+      },
+      "id": "1cd9"
+    },
+    {
+      "list_id": "6",
+      "title": "Dịch vụ tắm, rửa, massage cho vật nuôi",
+      "images": "https://mcdn.coolmate.me/uploads/November2021/spa-thu-cung-la-gi-14.jpg",
+      "detail": {
+        "description": "Tắm rửa bằng sữa tắm chuyên dụng, sấy khô, massage thư giãn và chăm sóc móng tai lông toàn diện.",
+        "price": "Từ 100.000đ/lượt",
+        "thumbline": [
+          "https://petmart.vn/wp-content/uploads/2016/09/spa-thu-cung.jpg",
+          "https://azpet.com.vn/uploads/images/dich-vu/spa-thu-cung.jpg",
+          "https://petcity.vn/media/news/3011_spa-thu-cung.jpg"
+        ]
+      },
+      "id": "f6a3"
+    }
+  ],
+  "service_register": [
+    {
+      "id": "9240",
+      "petService": "spa",
+      "petName": "Mèo",
+      "email": "khanhbk12@gmail.com",
+      "phone": "0123456789",
+      "date": "2025-05-20T12:57",
+      "message": "ko"
+    },
+    {
+      "id": "1f08",
+      "petService": "hotel",
+      "petName": "hhh",
+      "email": "h@gmail.com",
+      "phone": "556",
+      "roomType": "normal",
+      "startDate": "2025-05-15",
+      "endDate": "2025-05-20"
+    },
+    {
+      "id": "da73",
+      "petService": "exam",
+      "petName": "khôi",
+      "email": "khoi@gmail.com",
+      "phone": "12566",
+      "date": "2025-05-22T13:13"
+    },
+    {
+      "id": "4c53",
+      "petService": "spa",
+      "petName": "khanh",
+      "email": "khanh@gmail.com",
+      "phone": "455",
+      "date": "2025-05-22T13:14"
+    },
+    {
+      "id": "36c6",
+      "petService": "spa",
+      "petName": "meomeo",
+      "email": "khanhbk@gmail.com",
+      "phone": "12356895",
+      "date": "2025-05-22T20:30"
+    },
+    {
+      "id": "dc86",
+      "petService": "exam",
+      "petName": "malisa",
+      "email": "malisa@gmail.com",
+      "phone": "0123456896",
+      "date": "2025-05-22T22:45",
+      "message": "khám kĩ cho tôi"
+    },
+    {
+      "id": "c2a0",
+      "petService": "hotel",
+      "petName": "Bốt ngoo",
+      "email": "khanhbk@gmail.com",
+      "phone": "098364732",
+      "roomType": "normal",
+      "startDate": "2025-05-27",
+      "endDate": "2025-05-30"
+    },
+    {
+      "id": "69ae",
+      "petService": "exam",
+      "petName": "Bốt ngoo",
+      "email": "khanh@gmail.com",
+      "phone": "0937827383",
+      "date": "2025-05-24T20:00"
+    },
+    {
+      "id": "52aa",
+      "petService": "hotel",
+      "petName": "Bốt ngoo",
+      "email": "khanhbk0102@gmail.com",
+      "phone": "0963659955",
+      "roomType": "vip",
+      "startDate": "2025-05-21",
+      "endDate": "2025-05-30"
+    },
+    {
+      "id": "0196",
+      "petService": "exam",
+      "petName": "Bò Sữa",
+      "email": "daaa",
+      "phone": "aa",
+      "date": "2025-05-24T22:34"
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "tenKhachHang": "Nguyễn Văn A",
+      "tenDangNhap": "nguyenvana",
+      "email": "vana@example.com",
+      "sdt": "0901234567",
+      "diaChi": "123 Lý Thường Kiệt, P.7",
+      "thanhPho": "TP.HCM",
+      "quocTich": "Việt Nam",
+      "ngayTao": "2024-12-01"
+    },
+    {
+      "id": "2",
+      "tenKhachHang": "Trần Thị B",
+      "tenDangNhap": "tranthib",
+      "email": "thib@example.com",
+      "sdt": "0912345678",
+      "diaChi": "456 Hai Bà Trưng, Q.1",
+      "thanhPho": "Hà Nội",
+      "quocTich": "Việt Nam",
+      "ngayTao": "2024-11-15"
+    },
+    {
+      "id": "3",
+      "tenKhachHang": "Lê Minh C",
+      "tenDangNhap": "leminhc",
+      "email": "minhc@example.com",
+      "sdt": "0923456789",
+      "diaChi": "789 Phan Xích Long",
+      "thanhPho": "Đà Nẵng",
+      "quocTich": "Việt Nam",
+      "ngayTao": "2025-01-05"
+    },
+    {
+      "id": "4",
+      "tenKhachHang": "Phạm Quốc D",
+      "tenDangNhap": "phamquocd",
+      "email": "quocd@example.com",
+      "sdt": "0934567890",
+      "diaChi": "22 Nguyễn Huệ",
+      "thanhPho": "Huế",
+      "quocTich": "Việt Nam",
+      "ngayTao": "2025-02-20"
+    },
+    {
+      "id": "5",
+      "tenKhachHang": "Hoàng Thị E",
+      "tenDangNhap": "hoangthie",
+      "email": "thie@example.com",
+      "sdt": "0945678901",
+      "diaChi": "100 Trần Hưng Đạo",
+      "thanhPho": "Cần Thơ",
+      "quocTich": "Việt Nam",
+      "ngayTao": "2025-03-10"
+    }
+  ],
+  "staff": [
+    {
+      "id": "1",
+      "tenNhanVien": "Ngô Văn Long",
+      "tenDangNhap": "ngolong",
+      "email": "longnv@example.com",
+      "sdt": "0968123456",
+      "diaChi": "12 Bạch Mai, Hai Bà Trưng",
+      "thanhPho": "Hà Nội122",
+      "quocTich": "Việt Nam",
+      "ngayTao": "2024-10-20"
+    },
+    {
+      "id": "2",
+      "tenNhanVien": "Phan Thị Hồng",
+      "tenDangNhap": "hongpt",
+      "email": "hongpt@example.com",
+      "sdt": "0911222333",
+      "diaChi": "54 Pasteur, Quận 1",
+      "thanhPho": "TP.HCM",
+      "quocTich": "Việt Nam",
+      "ngayTao": "2025-01-12"
+    },
+    {
+      "id": "3",
+      "tenNhanVien": "Đặng Minh Tuấn",
+      "tenDangNhap": "tuanmd",
+      "email": "tuanmd@example.com",
+      "sdt": "0988777666",
+      "diaChi": "23 Lê Duẩn",
+      "thanhPho": "Đà Nẵng",
+      "quocTich": "Việt Nam",
+      "ngayTao": "2025-03-03"
+    },
+    {
+      "id": "1954",
+      "tenNhanVien": "Nguyễn Quốc Khánh",
+      "tenDangNhap": "khanhbk0102",
+      "email": "khanhbk0102@gmail.com",
+      "sdt": "0927392743",
+      "diaChi": "Định Công,Hà Nội",
+      "thanhPho": "Hà Nội",
+      "quocTich": "Việt Nam"
+    }
+  ],
+  "pets": [
+    {
+      "id": "0be2",
+      "tenThuCung": "lamama",
+      "image": "",
+      "chungLoai": "cho",
+      "tuoi": "2",
+      "gioiTinh": "Cái",
+      "canNang": "20",
+      "idKhachHang": "9",
+      "pet_image": "https://www.bing.com/th/id/OIP.6gU0L2ZXxTlMxtv9akwyQwHaFj?w=241&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+    },
+    {
+      "id": "2",
+      "tenThuCung": "Misa",
+      "chungLoai": "Mèo Anh lông ngắn",
+      "tuoi": 3,
+      "gioiTinh": "Cái",
+      "canNang": 3.5,
+      "idKhachHang": 2,
+      "pet_image": "https://www.bing.com/th/id/OIP.xqYunaXLEIiIBgbHGncjBQHaHa?w=213&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+    },
+    {
+      "id": "1",
+      "tenThuCung": "Misa",
+      "chungLoai": "Mèo Anh lông dài",
+      "tuoi": 3,
+      "gioiTinh": "Cái",
+      "canNang": 3.5,
+      "idKhachHang": 2,
+      "pet_image": "https://mtv.vn/uploads/2023/02/25/meo-dd.jpg"
+    },
+    {
+      "id": "3",
+      "tenThuCung": "Kiki",
+      "chungLoai": "Chó Husky",
+      "tuoi": 4,
+      "gioiTinh": "Đực",
+      "canNang": 16,
+      "idKhachHang": 1,
+      "pet_image": "https://mtv.vn/uploads/2023/02/25/meo-dd.jpg"
+    },
+    {
+      "id": "4",
+      "tenThuCung": "Misa",
+      "chungLoai": "Mèo Anh lông ngắn",
+      "tuoi": 3,
+      "gioiTinh": "Cái",
+      "canNang": 3.5,
+      "idKhachHang": 2,
+      "pet_image": "https://th.bing.com/th/id/OIP.k2Tqx1O6LHNu5B_J7hX76gHaJQ?w=736&h=920&rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": "5",
+      "tenThuCung": "Kiki",
+      "chungLoai": "Chó Husky",
+      "tuoi": 4,
+      "gioiTinh": "Đực",
+      "canNang": 15,
+      "idKhachHang": 1,
+      "pet_image": "https://static.chotot.com/storage/chotot-kinhnghiem/c2c/2021/03/d2ea8e0b-cho-husky-sibir.jpg"
+    },
+    {
+      "id": "4033",
+      "tenThuCung": "khanh",
+      "chungLoai": "chó doggiies",
+      "tuoi": "3",
+      "gioiTinh": "Đực",
+      "canNang": "20",
+      "idKhachHang": "9",
+      "pet_image": "https://cdn.pixabay.com/photo/2022/11/04/21/19/cat-7570709_1280.jpg"
+    },
+    {
+      "id": "6",
+      "tenThuCung": "Luna",
+      "chungLoai": "Mèo Ba Tư",
+      "tuoi": 1,
+      "gioiTinh": "Cái",
+      "canNang": 2.8,
+      "idKhachHang": 3,
+      "pet_image": "https://cdn.pixabay.com/photo/2022/11/04/21/19/cat-7570709_1280.jpg"
+    },
+    {
+      "id": "e791",
+      "tenThuCung": "yamal",
+      "image": "",
+      "chungLoai": "cho",
+      "tuoi": "2.2",
+      "gioiTinh": "Không xác định",
+      "canNang": "20",
+      "idKhachHang": "9",
+      "pet_image": "https://cdn.pixabay.com/photo/2022/11/04/21/19/cat-7570709_1280.jpg"
+    },
+    {
+      "id": "a2fe",
+      "tenThuCung": "soicika",
+      "image": "",
+      "chungLoai": "Mèo Ba Tư",
+      "tuoi": "2.2",
+      "gioiTinh": "Cái",
+      "canNang": "20",
+      "idKhachHang": "9",
+      "pet_image": "https://demoda.vn/wp-content/uploads/2022/01/anh-meo-de-thuong-1.jpg"
+    },
+    {
+      "id": "241e",
+      "tenThuCung": "Misa",
+      "image": "",
+      "chungLoai": "chó",
+      "tuoi": "2.2",
+      "gioiTinh": "Không xác định",
+      "canNang": "20",
+      "idKhachHang": "9",
+      "pet_image": "https://th.bing.com/th/id/OIP.AdWuJUGIIeCY6plqAOaBTQHaEz?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": "8ea3",
+      "tenThuCung": "Misa1",
+      "image": "",
+      "chungLoai": "mèo",
+      "tuoi": "2.2",
+      "gioiTinh": "Không xác định",
+      "canNang": "20",
+      "idKhachHang": "9",
+      "pet_image": "https://th.bing.com/th/id/OIP.AdWuJUGIIeCY6plqAOaBTQHaEz?rs=1&pid=ImgDetMain"
+    }
+  ],
+  "service": [
+    {
+      "id": "1",
+      "tenDichVu": "Tắm gội thú cưng",
+      "image": "",
+      "moTa": "Tắm sạch, sấy khô, cắt móng và vệ sinh tai.",
+      "loaiDichVu": "Spa",
+      "gia": 150000,
+      "donViTinh": "lượt",
+      "thoiGianUocTinh": 45,
+      "trangThai": "Đang hoạt động"
+    },
+    {
+      "id": "2",
+      "tenDichVu": "Khám tổng quát",
+      "moTa": "Kiểm tra sức khỏe tổng thể thú cưng.",
+      "loaiDichVu": "Khám bệnh",
+      "gia": 200000,
+      "donViTinh": "lượt",
+      "thoiGianUocTinh": 30,
+      "trangThai": "Đang hoạt động"
+    },
+    {
+      "id": "3",
+      "tenDichVu": "Lưu trú qua đêm",
+      "moTa": "Dịch vụ lưu trú 1 đêm, bao gồm ăn uống cơ bản.",
+      "loaiDichVu": "Lưu trú",
+      "gia": 300000,
+      "donViTinh": "đêm",
+      "thoiGianUocTinh": 1440,
+      "trangThai": "Ngừng hoạt động"
+    }
+  ],
+  "pet_list": [
+    {
+      "id": "1",
+      "name": "Bốt ngoo",
+      "species": "Chó",
+      "breed": "Husky",
+      "gender": "Đực",
+      "dob": "2018-05-01",
+      "ower": "Nguyễn Văn Hưng",
+      "image": "https://pethouse.com.vn/wp-content/uploads/2024/04/d67b8bad58abaeb79d2b6fc6c975d19c-scaled.jpg",
+      "ho_so_benh_an": [
+        {
+          "ngay_kham": "29-05-2024",
+          "trieu_chung": "Nhỉ mắt,gầy,kém ăn",
+          "chuan_doan": "bị bệnh mãn tính",
+          "tien_su_benh_ly": "Đã từng bị đau mắt",
+          "note": "Cần chú ý quan sát thường xuyên hơn,tránh cho lại gần những chỗ bẩn thỉu",
+          "don_thuoc": [
+            {
+              "stt": 1,
+              "ten_thuoc": "Thuốc nhỏ mắt",
+              "mo_ta": "Nhỏ mỗi ngày nhiều lần,sau mỗi tiếng nhỏ 1 lần",
+              "so_luong": 1
+            },
+            {
+              "stt": 2,
+              "ten_thuoc": "vacsion",
+              "mo_ta": "Tiêm",
+              "so_luong": 1
+            }
+          ]
+        },
+        {
+          "ngay_kham": "2025-05-29",
+          "trieu_chung": "đi ỉa",
+          "chuan_doan": "mắc các bệnh như đi ỉa,ỉa chảy,ỉa ko ngừng",
+          "tien_su_benh_ly": "đau mắt",
+          "note": "chú ý quan sát",
+          "don_thuoc": [
+            {
+              "stt": 1,
+              "ten_thuoc": "đi ỉa",
+              "mo_ta": "cho uống sau ăn",
+              "so_luong": 2
+            },
+            {
+              "stt": 2,
+              "ten_thuoc": "Tiêu chảy",
+              "mo_ta": "cHO UỐNG TRƯỚC NGỦ",
+              "so_luong": 1
+            }
+          ]
+        }
+      ],
+      "diet": {
+        "mode": "Ăn nhiều đạm, canxi",
+        "applyTime": "2023-01-01 - 2030-01-01",
+        "meals": {
+          "sáng": [],
+          "trưa": [
+            {
+              "id": 1,
+              "tenThucPham": "Mắm tôm",
+              "moTa": "Mắm tôm được làm từ những con tôm thối nên men",
+              "soLuong": 2,
+              "donViTinh": "bát"
+            },
+            {
+              "id": 2,
+              "tenThucPham": "Hạt óc chó",
+              "moTa": "Hạt đã rang qua",
+              "soLuong": 10,
+              "donViTinh": "quả"
+            }
+          ],
+          "tối": []
+        }
+      },
+      "age": "2",
+      "weight": "4"
+    },
+    {
+      "id": "2",
+      "name": "Miu Miu",
+      "species": "Mèo",
+      "breed": "Anh lông ngắn",
+      "gender": "Cái",
+      "dob": "2020-08-10",
+      "ower": "Nguyễn Quốc Khánh",
+      "image": "https://babilala.vn/wp-content/uploads/2023/07/day-be-nhan-biet-cac-con-vat-con-meo.png",
+      "ho_so_benh_an": [
+        {
+          "ngay_kham": "29-05-2024",
+          "trieu_chung": "Nhỉ mắt,gầy,kém ăn",
+          "chuan_doan": "bị bệnh mãn tính",
+          "tien_su_benh_ly": "Đã từng bị đau mắt",
+          "note": "Cần chú ý quan sát thường xuyên hơn,tránh cho lại gần những chỗ bẩn thỉu",
+          "don_thuoc": [
+            {
+              "stt": 1,
+              "ten_thuoc": "Thuốc nhỏ mắt",
+              "mo_ta": "Nhỏ mỗi ngày nhiều lần,sau mỗi tiếng nhỏ 1 lần",
+              "so_luong": 1
+            },
+            {
+              "stt": 2,
+              "ten_thuoc": "vacsion",
+              "mo_ta": "Tiêm",
+              "so_luong": 1
+            }
+          ]
+        },
+        {
+          "ngay_kham": "2025-05-28",
+          "trieu_chung": "nhìn ngu ngu,như bị đao",
+          "chuan_doan": "ngu thật ko phải ngu ngu",
+          "tien_su_benh_ly": "đã từng bị dại",
+          "note": "quan sát kỹ tranh lại gần kẻo nguy hiểm",
+          "don_thuoc": [
+            {
+              "stt": 1,
+              "ten_thuoc": "Vacsion tiêm dại",
+              "mo_ta": "Tiêm",
+              "so_luong": 2
+            },
+            {
+              "stt": 2,
+              "ten_thuoc": "an thần",
+              "mo_ta": "tiêm",
+              "so_luong": 1
+            }
+          ]
+        }
+      ],
+      "diet": {
+        "mode": "Chế độ ít béo",
+        "applyTime": "2023-01-01 - 2030-01-01",
+        "meals": {
+          "sáng": [],
+          "trưa": [],
+          "tối": [
+            {
+              "id": 1,
+              "tenThucPham": "Thịt gà luộc",
+              "moTa": "Thịt gà bỏ da, không muối",
+              "soLuong": 100,
+              "donViTinh": "gram"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "3",
+      "name": "Lạc Lạc",
+      "species": "Chó",
+      "breed": "Phốc Sóc",
+      "gender": "Cái",
+      "dob": "2022-03-20",
+      "ower": "Tạ Duy Lâm",
+      "image": "https://ts4.mm.bing.net/th?id=OIP.dZgUNnDOWnrUPisZ6vWhqQHaEo&pid=15.1",
+      "ho_so_benh_an": [
+        {
+          "ngay_kham": "29-05-2024",
+          "trieu_chung": "Nhỉ mắt,gầy,kém ăn",
+          "chuan_doan": "bị bệnh mãn tính",
+          "tien_su_benh_ly": "Đã từng bị đau mắt",
+          "note": "Cần chú ý quan sát thường xuyên hơn,tránh cho lại gần những chỗ bẩn thỉu",
+          "don_thuoc": [
+            {
+              "stt": 1,
+              "ten_thuoc": "Thuốc nhỏ mắt",
+              "mo_ta": "Nhỏ mỗi ngày nhiều lần,sau mỗi tiếng nhỏ 1 lần",
+              "so_luong": 1
+            },
+            {
+              "stt": 2,
+              "ten_thuoc": "vacsion",
+              "mo_ta": "Tiêm",
+              "so_luong": 1
+            }
+          ]
+        }
+      ],
+      "diet": {
+        "mode": "Chế độ bình thường",
+        "applyTime": "2024-06-01 - 2026-01-01",
+        "meals": {
+          "sáng": [
+            {
+              "id": 1,
+              "tenThucPham": "Sữa chua",
+              "moTa": "Không đường",
+              "soLuong": 1,
+              "donViTinh": "hũ"
+            }
+          ],
+          "trưa": [
+            {
+              "id": 2,
+              "tenThucPham": "Cơm gà",
+              "moTa": "Thịt gà luộc, cơm mềm",
+              "soLuong": 1,
+              "donViTinh": "bát"
+            }
+          ],
+          "tối": [
+            {
+              "id": 3,
+              "tenThucPham": "Pate",
+              "moTa": "Pate gà cho chó nhỏ",
+              "soLuong": 1,
+              "donViTinh": "hộp"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "4",
+      "name": "Bò Sữa",
+      "species": "Mèo",
+      "breed": "Ba tư",
+      "gender": "Đực",
+      "dob": "2021-12-25",
+      "ower": "Trần Doãn Huy",
+      "image": "https://www.bing.com/th/id/OIP.UygPo70iL_v0FpME8tbAXAHaFj?w=239&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "ho_so_benh_an": [
+        {
+          "ngay_kham": "29-05-2024",
+          "trieu_chung": "Nhỉ mắt,gầy,kém ăn",
+          "chuan_doan": "bị bệnh mãn tính",
+          "tien_su_benh_ly": "Đã từng bị đau mắt",
+          "note": "Cần chú ý quan sát thường xuyên hơn,tránh cho lại gần những chỗ bẩn thỉu",
+          "don_thuoc": [
+            {
+              "stt": 1,
+              "ten_thuoc": "Thuốc nhỏ mắt",
+              "mo_ta": "Nhỏ mỗi ngày nhiều lần,sau mỗi tiếng nhỏ 1 lần",
+              "so_luong": 1
+            },
+            {
+              "stt": 2,
+              "ten_thuoc": "vacsion",
+              "mo_ta": "Tiêm",
+              "so_luong": 1
+            }
+          ]
+        }
+      ],
+      "diet": {
+        "mode": "Ăn dễ tiêu",
+        "applyTime": "2024-01-01 - 2030-01-01",
+        "meals": {
+          "sáng": [],
+          "trưa": [],
+          "tối": []
+        }
+      }
+    },
+    {
+      "id": "5",
+      "name": "Cún Con",
+      "species": "Chó",
+      "breed": "Poodle",
+      "gender": "Cái",
+      "dob": "2023-01-01",
+      "ower": "Võ Anh Khôi",
+      "time": "8:00PM",
+      "image": "https://www.bing.com/th/id/OIP.spCHi4tTc5cIA3F7sr9lHwAAAA?w=204&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+      "ho_so_benh_an": [
+        {
+          "ngay_kham": "29-05-2024",
+          "trieu_chung": "Nhỉ mắt,gầy,kém ăn",
+          "chuan_doan": "bị bệnh mãn tính",
+          "tien_su_benh_ly": "Đã từng bị đau mắt",
+          "note": "Cần chú ý quan sát thường xuyên hơn,tránh cho lại gần những chỗ bẩn thỉu",
+          "don_thuoc": [
+            {
+              "stt": 1,
+              "ten_thuoc": "Thuốc nhỏ mắt",
+              "mo_ta": "Nhỏ mỗi ngày nhiều lần,sau mỗi tiếng nhỏ 1 lần",
+              "so_luong": 1
+            },
+            {
+              "stt": 2,
+              "ten_thuoc": "vacsion",
+              "mo_ta": "Tiêm",
+              "so_luong": 1
+            }
+          ]
+        }
+      ],
+      "diet": {
+        "mode": "Ăn tăng cân",
+        "applyTime": "2024-03-01 - 2030-01-01",
+        "meals": {
+          "sáng": [],
+          "trưa": [],
+          "tối": []
+        }
+      }
+    },
+    {
+      "id": "2f1e",
+      "name": "Mì sào",
+      "age": "2",
+      "weight": "2",
+      "breed": "docky",
+      "dob": "2025-01-13",
+      "image": "https://www.bing.com/th/id/OIP.P24qWOlgK_36gMSQPLUfNwHaFn?w=248&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+    },
+    {
+      "id": "6a55",
+      "name": "Doggug",
+      "age": "3",
+      "weight": "3.5",
+      "breed": "ce",
+      "dob": "2025-05-06",
+      "image": "https://th.bing.com/th/id/OIP.9HGkQz7Toe7_teVps8KnmgHaEK?w=305&h=180&c=7&r=0&o=7&cb=iwp2&dpr=1.3&pid=1.7&rm=3"
+    }
+  ],
+  "accommodations": [
+    {
+      "id": "2",
+      "petName": "Luna",
+      "ownerName": "Trần Thị B",
+      "room": "Phòng 102",
+      "checkIn": "2025-05-10",
+      "checkOut": "2025-05-12",
+      "notes": "Cần tắm hàng ngày",
+      "status": "Đã trả phòng"
+    }
+  ]
+}

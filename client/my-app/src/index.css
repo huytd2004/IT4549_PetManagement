@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html,
+body,
+#root,
+.app,
+.content {
+  font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.mySwiper2 {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.mySwiper .swiper-slide {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+  border: 2px solid #1976d2;
+  border-radius: 6px;
+}
